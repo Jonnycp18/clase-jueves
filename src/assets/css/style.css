@@ -5,10 +5,10 @@
 }
 
 body {
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-content: center; /* Centra el contenido horizontalmente */
-  display: flex; /* Utiliza flexbox para el diseño */
-  min-height: 100vh; /* Mínima altura del cuerpo igual a la altura de la ventana */
+   align-items: center; /* Centra el contenido verticalmente */
+   justify-content: center; /* Centra el contenido horizontalmente */
+   display: flex; /* Utiliza flexbox para el diseño */
+   min-height: 100vh; /* Mínima altura del cuerpo igual a la altura de la ventana */
 }
 
 .esqueletoOff {
