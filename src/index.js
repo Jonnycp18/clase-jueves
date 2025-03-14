@@ -1,4 +1,4 @@
-let esqueleto = 'off'; // Estado inicial del esqueleto
+let esqueleto = 'on'; // Estado inicial del esqueleto
 const esqueletoStop = document.getElementById('esqueletoQuieto'); // Selecciona el div del esqueleto
 const botonSonido = new Audio('./sound/botonbailar.mp3');
 const botonAudio = new Audio('./sound/audio.mp3');
