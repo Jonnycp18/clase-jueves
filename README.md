@@ -46,9 +46,15 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
 <li> HTML </li>
 <li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
+<li> CSS </li>
 <li> GIT </li>
 <li> GITHUB </li>
+<li> GIT HUB ACTION </li>
+<li>Javascript</li>
+<li>Webpack</li>
+<li>Express</li>
+<li>Docker</li>
+
 
 <details>
 <summary> Client </summary>
@@ -69,6 +75,16 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
+<li> [HTML & CSS Best practices]</li>
+<li> [Bash Script to automate deployment]</li>
+<li> [Docker and Docker Compose]</li>
+<li> [Express Server to handle routing]</li>
+<li> [Bash Script to automate deployment] </li>
+
+
+
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -80,7 +96,11 @@ To run this project you need the following tools:
 
 - [VS Code]
 - [Git and GitHub]
-- [ShellScript ]
+- [Nodejs]
+- [Express]
+- [docker and docker compose]
+- [Webpack Installation]
+
 
 ### Setup
 
@@ -88,30 +108,68 @@ Clone this respository  to your desired folder:
 
 sh
 cd NEWTORK-SCRIPT
-git clone https://github.com/alyconr/Network-Shell-Script-.git
+git clone https://github.com/Jonnycp18/clase-jueves.git
 
 ### Install
 
 Install This project with:
 
-sh
-    ./networkScript.sh
 
+Eslint
+```sh
+     npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+Webpack
+```sh
+     npm init -y
+     npm install webpack webpack-cli --save-dev
+```
+Webpack dev server
+```sh
+     npm install --save-dev webpack-dev-server
+```
+Babel Dependency loader
+```sh
+     npm install --save-dev babel-loader
+```
+Concurrent, the npm package for running multiple commands in parallel
+```sh
+     npm install --save-dev concurrently
+```
 
 ### Usage 
 
 To run the project, execute the following command:
 
-sh
-./networkScript.sh
+
+## Development mode
+```sh
+    npm run build-dev
+    npm run devserver-reload    
+```
+## Production mode
+```sh
+    npm run build-prod
+    npm run server-prod
+```
 
 
 ### Run Test
 
-To run test, run the following command or endpoint:
+To run tests, run the following command:
 
-sh
-python -m unittest test_module.TestClass
+
+To test the Stylelint linter:
+```sh
+    npx stylelint "**/*.{css,scss}"
+```
+To test the Webhint:
+```sh
+    npx hint .
+```
+To test the ESLint linter:
+```sh
+    npx eslint .
 
 
 
@@ -127,8 +185,8 @@ Jeysson Contreras
 
 🧑🏻‍💻 *Author 1*
 
- - GitHub: [@alyconr](https://github.com/alyconr)
- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras)
+ - GitHub: [@alyconr](https://github.com/Jonnycp18)
+ - LinkedIn: [LinkedIn]()
 
 
 ## 🕹️ Future Features <a name="future-features"></a>
@@ -143,7 +201,7 @@ Jeysson Contreras
 
 Contributions, issues, and  feature requests are welcome!
 
-Feel free tp check the [issues page](https://github.com/alyconr/Network-Shell-Script-/issues)
+Feel free tp check the [issues page](https://github.com/Jonnycp18/clase-jueves.git)
 
 
 ## ⭐ Show your Support
