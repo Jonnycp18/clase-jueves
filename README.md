@@ -31,9 +31,15 @@
 - [❓ FAQ ](#faq)
 - [📃 License](#license)
 
-# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
+# 📖 [NETWORK SCRIPT PROJECT]<a name="esqueleto-clase"></a>
 
-*[Networ Script Project]* This is a first project in SENA'S   SysAdmin Network Curriculum
+*[Networ Script Project]* This project allows you to control an animated dancing skeleton through button interaction. When the user presses the button, the skeleton begins to dance, triggering a predefined animation of movements such as spins, jumps, and arm movements. Pressing the same button again stops the animation and the skeleton returns to its initial position, stopping the dance.
+
+Technologies Used:
+
+HTML: For the basic structure of the web page and the interactive button.
+CSS: For the visual styles and animations of the skeleton.
+JavaScript: To manage the interaction with the button and control the animation of the skeleton.
 
 ## ⚒️ Build With <a name="built-with"></a>
 
@@ -51,9 +57,8 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 <li> GITHUB </li>
 <li> GIT HUB ACTION </li>
 <li>Javascript</li>
-<li>Webpack</li>
 <li>Express</li>
-<li>Docker</li>
+
 
 
 <details>
@@ -76,10 +81,9 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 <li> [HTML & CSS Best practices]</li>
-<li> [Bash Script to automate deployment]</li>
-<li> [Docker and Docker Compose]</li>
+
 <li> [Express Server to handle routing]</li>
-<li> [Bash Script to automate deployment] </li>
+
 
 
 
@@ -98,7 +102,6 @@ To run this project you need the following tools:
 - [Git and GitHub]
 - [Nodejs]
 - [Express]
-- [docker and docker compose]
 - [Webpack Installation]
 
 
@@ -189,11 +192,6 @@ Jeysson Contreras
  - LinkedIn: [LinkedIn]()
 
 
-## 🕹️ Future Features <a name="future-features"></a>
-
-- [ ] *[Ping]*
-- [ ] *[Nslookup]*
-- [ ] *[BandWitdth Test]*
 
 
 ## 🤝 Contributing <a name="contributing"></a>
