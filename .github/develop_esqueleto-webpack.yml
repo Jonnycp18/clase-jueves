@@ -1,12 +1,12 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - CLASE-JUEVES
+name: Build and deploy Node.js app to Azure Web App - ESQUELETO-WEBPACK
 
 on:
   push:
     branches:
-      - development
+      - develop
   workflow_dispatch:
 
 jobs:
@@ -60,15 +60,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_DB8C6ACE6845484B83F6D424C8787D13 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_37171C6F402940D4A1D9394823DDADEE }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7F031B56D50D4E55848DDC402FFD721A }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_CA7B7ADC3A3548B681EEAC0335729B84 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_12638B10BBE349F48C01E1918DC0BCCE }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7D2075D9D72A497F914EA04578AF8C03 }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'CLASE-JUEVES'
-          slot-name: 'development'
+          app-name: 'ESQUELETO-WEBPACK'
+          slot-name: 'Production'
           package: .
-          
